@@ -1,0 +1,22 @@
+# bağımlılıklar
+/node_modules
+
+# next.js
+/.next/
+/out/
+/build
+
+# misc
+.DS_Store
+*.pem
+
+# debug
+npm-debug.log*
+
+# ortam dosyaları — gerçek değerler git'e girmez, şablon girer
+.env*
+!.env.example
+
+# typescript
+*.tsbuildinfo
+next-env.d.ts

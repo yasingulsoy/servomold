@@ -1,0 +1,180 @@
+{
+  "meta": {
+    "title": "ServoMold | Kalıp imalatı ve fason CNC işleme, İstanbul",
+    "description": "Kesme, bükme, plastik enjeksiyon ve metal enjeksiyon kalıpları; fason CNC torna ve freze işleme. 2010'dan beri Dudullu OSB, Ümraniye, İstanbul."
+  },
+  "genel": {
+    "slogan": "Kalıp Sistemleri",
+    "atla": "İçeriğe geç",
+    "detay": "Ayrıntılar",
+    "tumu": "Bütün hizmetler",
+    "servosteelde": "Servosteel'de incele"
+  },
+  "nav": {
+    "hizmetler": "Hizmetler",
+    "hakkimizda": "Hakkımızda",
+    "iletisim": "İletişim",
+    "teklif": "Teklif isteyin",
+    "menu": "Menü",
+    "kapat": "Menüyü kapat",
+    "dil": "Dil",
+    "anasayfa": "Ana sayfa"
+  },
+  "hero": {
+    "ust": "2010'dan beri · Dudullu OSB, İstanbul",
+    "baslik": "Kalıp imalatı ve fason CNC işleme",
+    "giris": "Kesme, bükme, plastik enjeksiyon ve metal enjeksiyon kalıplarını teknik resminizden üretiyoruz. Kalıplarımızı işlediğimiz tezgâhlarda sizin parçalarınızı da işliyoruz.",
+    "cta": "Teknik resminizi gönderin",
+    "cta2": "Hizmetlerimiz",
+    "plaka": {
+      "kurulus": "Kuruluş",
+      "konum": "Konum",
+      "konumDeger": "Dudullu OSB",
+      "alan": "Hizmet alanı",
+      "grup": "Grup",
+      "baslik": "Kimlik"
+    },
+    "gorselAlt": "CNC frezede kalıp yüzeyinin işlenmesi"
+  },
+  "anasayfa": {
+    "hizmetUst": "Ne yapıyoruz",
+    "hizmetBaslik": "Dört kalıp ailesi, fason işleme ve üretim hatları",
+    "hizmetGiris": "Sac parçadan plastik ve döküm parçaya: parçanızı seri üretecek kalıbı tasarlıyor ve işliyoruz.",
+    "ilkeUst": "Nasıl çalışıyoruz",
+    "ilkeBaslik": "Kuruluşumuzdan beri değişmeyen dört ilke",
+    "ilkeler": {
+      "termin": {
+        "baslik": "Zamanında teslim",
+        "metin": "Termin, planımızın başladığı yerdir; işi baştan ona göre kurarız."
+      },
+      "fiyat": {
+        "baslik": "Uygun fiyat",
+        "metin": "Kalıbı parçanızın gerçek ihtiyacına göre kurar, fiyatı da ona göre veririz."
+      },
+      "kadro": {
+        "baslik": "Uzman kadro",
+        "metin": "Kalıbınızı tasarımdan işlemeye, alanında uzman ekibimiz hazırlar."
+      },
+      "kalite": {
+        "baslik": "Dürüstlük ve kalite",
+        "metin": "Üretimde başarının ve sürekliliğin teminatı, hizmette dürüstlük ve kalitedir."
+      }
+    },
+    "surecUst": "Süreç",
+    "surecBaslik": "Teknik resimden teslime",
+    "surec": {
+      "1": {
+        "baslik": "Teknik resim ve ihtiyaç",
+        "metin": "Parça çizimi ya da numune, malzeme, adet ve pres bilgisiyle başlarız."
+      },
+      "2": {
+        "baslik": "Kalıp tasarımı",
+        "metin": "Kalıp yerleşimi, çelik seçimi ve istasyonlar parçaya göre tasarlanır."
+      },
+      "3": {
+        "baslik": "CNC işleme",
+        "metin": "Kalıp elemanları CNC torna ve frezede işlenir."
+      },
+      "4": {
+        "baslik": "Montaj ve deneme",
+        "metin": "Kalıp toplanır, ilk parçalar ölçülür, gerekiyorsa düzeltilir."
+      },
+      "5": {
+        "baslik": "Teslim",
+        "metin": "Onayınızın ardından kalıp teslim edilir."
+      }
+    },
+    "cncUst": "Fason talaşlı imalat",
+    "cncBaslik": "Çiziminiz bize gelsin, parçanız hazır çıksın",
+    "cncGiris": "Tek bir yedek parçadan seri parçaya, CNC ve konvansiyonel tezgâhlarda fason işleme.",
+    "grupUst": "Grup şirketimiz",
+    "grupBaslik": "Kalıbınızı besleyecek hat da grubumuzdan",
+    "grupGiris": "Servosteel pres besleme sistemleri ve rulo sac işleme hatları tasarlayıp üretiyor. Kalıbı ve hattı birlikte planlamak, kalıp–pres–besleme uyumunu baştan çözer.",
+    "grupDugme": "servosteel.com.tr",
+    "videoUst": "Video",
+    "videoBaslik": "ServoSteel & ServoMold",
+    "videoOynat": "Videoyu oynat",
+    "videoNot": "Video YouTube'dan yüklenir.",
+    "markaUst": "Projelerimizde kullandığımız markalar",
+    "ctaBaslik": "Teknik resminizi gönderin, teklifimizi hazırlayalım.",
+    "ctaGiris": "Çizim, numune fotoğrafı ya da 3B model: elinizde ne varsa yeter. Eksik bilgiyi biz sorarız.",
+    "ctaDugme": "Teklif formu"
+  },
+  "hizmetSayfa": {
+    "baslik": "Hizmetlerimiz",
+    "giris": "Kesme, bükme, plastik enjeksiyon ve metal enjeksiyon kalıpları; fason CNC işleme ve grup şirketimiz Servosteel'in üretim hatları.",
+    "kullanim": "Kullanıldığı yerler",
+    "teklifIcin": "Teklif için gönderin",
+    "diger": "Diğer hizmetlerimiz",
+    "formBaslik": "Bu hizmet için teklif isteyin",
+    "disBaslik": "Bu hizmet Servosteel'de",
+    "disMetin": "Pres besleme ve rulo sac işleme hatlarının ayrıntıları, teknik verileri ve referansları grup şirketimizin sitesinde."
+  },
+  "hakkimizda": {
+    "baslik": "Hakkımızda",
+    "ust": "2010'dan beri kalıp",
+    "giris": "ServoMold 2010'da kuruldu. O günden beri kesme, bükme, plastik ve metal enjeksiyon kalıpları ile fason talaşlı imalat projelerinde üretim yapıyor.",
+    "metin1": "Değişmeyen ilkemiz; iyi hizmet, zamanında teslim ve uygun fiyat. Alanında uzman kadromuzla kalıbınızı tasarlıyor, Dudullu OSB'deki atölyemizde işliyor ve teslim ediyoruz.",
+    "metin2": "Üretimde başarının ve sürekliliğin teminatının hizmette dürüstlük ve kalite olduğuna inanıyoruz.",
+    "misyonBaslik": "Misyonumuz",
+    "misyon": "Takım ruhuyla çalışarak, Türk makine imalat ve montaj sanayisinde gelişen teknolojilere paralel olarak en kaliteli ürünleri ihracata sunmak.",
+    "rakamlar": {
+      "kurulus": "Kuruluş yılı",
+      "kalip": "Kalıp ailesi",
+      "fason": "Fason işleme türü"
+    },
+    "grupBaslik": "Servosteel ile aynı grup",
+    "grupMetin": "Kardeş şirketimiz Servosteel pres besleme sistemleri ve rulo sac işleme hatları üretiyor. Kalıp ile hattı aynı grupta planlıyoruz."
+  },
+  "iletisim": {
+    "baslik": "İletişim",
+    "giris": "Teklif, numune ya da teknik soru için yazın veya arayın. Teknik resminizi aşağıdaki formdan da gönderebilirsiniz.",
+    "adres": "Adres",
+    "telefon": "Telefon",
+    "eposta": "E-posta",
+    "harita": "Haritada aç",
+    "haritaBaslik": "ServoMold konumu",
+    "formBaslik": "Teklif formu",
+    "formGiris": "Dosya ekleyebilirsiniz: PDF, DWG, DXF, STEP, IGES, görsel ya da ZIP; toplam 15 MB'a kadar."
+  },
+  "form": {
+    "ad": "Adınız",
+    "firma": "Firma",
+    "eposta": "E-posta",
+    "telefon": "Telefon",
+    "hizmet": "Konu",
+    "hizmetSec": "Seçin",
+    "diger": "Diğer",
+    "mesaj": "Mesajınız",
+    "mesajIpucu": "Parça, malzeme, adet, termin…",
+    "dosya": "Dosya ekle",
+    "dosyaIpucu": "Teknik resim, model ya da fotoğraf",
+    "dosyaSil": "Kaldır",
+    "zorunlu": "zorunlu",
+    "gonder": "Gönder",
+    "gonderiliyor": "Gönderiliyor…",
+    "gizlilik": "Bilgileriniz yalnızca talebinizi yanıtlamak için kullanılır.",
+    "tamamBaslik": "Talebiniz bize ulaştı.",
+    "tamamMetin": "En kısa sürede dönüş yapacağız. Acil ise arayın:",
+    "yeni": "Yeni talep",
+    "hataGenel": "Gönderilemedi. Lütfen tekrar deneyin ya da doğrudan e-posta gönderin:",
+    "hataBuyuk": "Dosyalar toplam 15 MB'ı geçemez.",
+    "hataTur": "Bu dosya türü kabul edilmiyor:",
+    "hataAlan": "Lütfen ad, e-posta ve mesaj alanlarını doldurun.",
+    "hataSik": "Çok sık gönderim yapıldı. Birkaç dakika sonra tekrar deneyin."
+  },
+  "altbilgi": {
+    "ozet": "2010'dan beri kesme, bükme, plastik ve metal enjeksiyon kalıpları; fason CNC işleme.",
+    "hizmetler": "Hizmetler",
+    "kurumsal": "Kurumsal",
+    "iletisim": "İletişim",
+    "grup": "Grup şirketi",
+    "grupMetin": "Pres besleme sistemleri ve rulo sac işleme hatları",
+    "haklar": "Bütün hakları saklıdır."
+  },
+  "bulunamadi": {
+    "baslik": "Sayfa bulunamadı",
+    "metin": "Aradığınız sayfa taşınmış ya da hiç var olmamış olabilir.",
+    "dugme": "Ana sayfaya dön"
+  }
+}

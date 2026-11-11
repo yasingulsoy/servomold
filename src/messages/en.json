@@ -1,0 +1,153 @@
+{
+  "meta": {
+    "title": "ServoMold | Die & mold making and CNC machining, Istanbul",
+    "description": "Cutting dies, bending dies, plastic injection molds and die-casting molds; contract CNC turning and milling. Since 2010, Dudullu OSB, Istanbul, Türkiye."
+  },
+  "genel": {
+    "slogan": "Mold & Die Systems",
+    "atla": "Skip to content",
+    "detay": "Details",
+    "tumu": "All services",
+    "servosteelde": "View on Servosteel"
+  },
+  "nav": {
+    "hizmetler": "Services",
+    "hakkimizda": "About",
+    "iletisim": "Contact",
+    "teklif": "Request a quote",
+    "menu": "Menu",
+    "kapat": "Close menu",
+    "dil": "Language",
+    "anasayfa": "Home"
+  },
+  "hero": {
+    "ust": "Since 2010 · Dudullu OSB, Istanbul",
+    "baslik": "Die & mold making and contract CNC machining",
+    "giris": "We build cutting dies, bending dies, plastic injection molds and die-casting molds from your drawings. The machines that make our molds also machine your parts.",
+    "cta": "Send your drawing",
+    "cta2": "Our services",
+    "plaka": {
+      "kurulus": "Founded",
+      "konum": "Location",
+      "konumDeger": "Dudullu OSB",
+      "alan": "Service areas",
+      "grup": "Group",
+      "baslik": "Profile"
+    },
+    "gorselAlt": "Milling a mold surface on a CNC machine"
+  },
+  "anasayfa": {
+    "hizmetUst": "What we do",
+    "hizmetBaslik": "Four mold families, contract machining and production lines",
+    "hizmetGiris": "From sheet metal parts to plastic and cast parts: we design and machine the tool that will produce your part in series.",
+    "ilkeUst": "How we work",
+    "ilkeBaslik": "Four principles we have kept since day one",
+    "ilkeler": {
+      "termin": { "baslik": "On-time delivery", "metin": "The delivery date is where our plan starts; we build the job around it." },
+      "fiyat": { "baslik": "Fair pricing", "metin": "We build the tool your part actually needs, and price it accordingly." },
+      "kadro": { "baslik": "Experienced team", "metin": "Your mold is prepared by our specialist team, from design to machining." },
+      "kalite": { "baslik": "Honesty and quality", "metin": "Honesty and quality in service are what keep production successful and sustainable." }
+    },
+    "surecUst": "Process",
+    "surecBaslik": "From drawing to delivery",
+    "surec": {
+      "1": { "baslik": "Drawing and requirements", "metin": "We start from the part drawing or a sample, the material, volume and press details." },
+      "2": { "baslik": "Tool design", "metin": "Layout, tool steel and stations are designed around the part." },
+      "3": { "baslik": "CNC machining", "metin": "Mold components are machined on CNC lathes and mills." },
+      "4": { "baslik": "Assembly and try-out", "metin": "The tool is assembled, first parts are measured and corrected if needed." },
+      "5": { "baslik": "Delivery", "metin": "The tool is delivered after your approval." }
+    },
+    "cncUst": "Contract machining",
+    "cncBaslik": "Send us the drawing, get the finished part",
+    "cncGiris": "From a single spare part to series parts, contract machining on CNC and conventional machines.",
+    "grupUst": "Our group company",
+    "grupBaslik": "The line that feeds your die comes from our group too",
+    "grupGiris": "Servosteel designs and builds press feeding systems and coil processing lines. Planning the die and the line together settles die–press–feed compatibility from the start.",
+    "grupDugme": "servosteel.com.tr",
+    "videoUst": "Video",
+    "videoBaslik": "ServoSteel & ServoMold",
+    "videoOynat": "Play video",
+    "videoNot": "The video loads from YouTube.",
+    "markaUst": "Brands we use in our projects",
+    "ctaBaslik": "Send your drawing and we will prepare a quotation.",
+    "ctaGiris": "A drawing, a photo of a sample or a 3D model: whatever you have is enough. We will ask for anything missing.",
+    "ctaDugme": "Quote form"
+  },
+  "hizmetSayfa": {
+    "baslik": "Our services",
+    "giris": "Cutting dies, bending dies, plastic injection molds and die-casting molds; contract CNC machining and production lines from our group company Servosteel.",
+    "kullanim": "Where it is used",
+    "teklifIcin": "Send us for a quote",
+    "diger": "Other services",
+    "formBaslik": "Request a quote for this service",
+    "disBaslik": "This service is provided by Servosteel",
+    "disMetin": "Details, technical data and references for press feeding and coil processing lines are on our group company's website."
+  },
+  "hakkimizda": {
+    "baslik": "About us",
+    "ust": "Making molds since 2010",
+    "giris": "ServoMold was founded in 2010. Since then it has been producing cutting dies, bending dies, plastic and die-casting molds, and contract machining projects.",
+    "metin1": "Our principles have not changed: good service, on-time delivery and fair pricing. With our experienced team we design your tool, machine it in our workshop in Dudullu OSB and deliver it.",
+    "metin2": "We believe honesty and quality in service are what keep production successful and sustainable.",
+    "misyonBaslik": "Our mission",
+    "misyon": "To work as a team and offer the highest-quality products to export markets, keeping pace with the technologies shaping the Turkish machine building and assembly industry.",
+    "rakamlar": {
+      "kurulus": "Founded",
+      "kalip": "Mold families",
+      "fason": "Machining services"
+    },
+    "grupBaslik": "Part of the same group as Servosteel",
+    "grupMetin": "Our sister company Servosteel builds press feeding systems and coil processing lines. We plan the tool and the line within the same group."
+  },
+  "iletisim": {
+    "baslik": "Contact",
+    "giris": "Write or call us for a quotation, a sample or a technical question. You can also send your drawing with the form below.",
+    "adres": "Address",
+    "telefon": "Phone",
+    "eposta": "Email",
+    "harita": "Open in Maps",
+    "haritaBaslik": "ServoMold location",
+    "formBaslik": "Quote form",
+    "formGiris": "You can attach files: PDF, DWG, DXF, STEP, IGES, images or ZIP; up to 15 MB in total."
+  },
+  "form": {
+    "ad": "Your name",
+    "firma": "Company",
+    "eposta": "Email",
+    "telefon": "Phone",
+    "hizmet": "Subject",
+    "hizmetSec": "Select",
+    "diger": "Other",
+    "mesaj": "Your message",
+    "mesajIpucu": "Part, material, quantity, lead time…",
+    "dosya": "Attach files",
+    "dosyaIpucu": "Drawing, model or photo",
+    "dosyaSil": "Remove",
+    "zorunlu": "required",
+    "gonder": "Send",
+    "gonderiliyor": "Sending…",
+    "gizlilik": "Your details are used only to answer your request.",
+    "tamamBaslik": "We have received your request.",
+    "tamamMetin": "We will get back to you shortly. If it is urgent, call us:",
+    "yeni": "New request",
+    "hataGenel": "Could not send. Please try again or email us directly:",
+    "hataBuyuk": "Files cannot exceed 15 MB in total.",
+    "hataTur": "This file type is not accepted:",
+    "hataAlan": "Please fill in your name, email and message.",
+    "hataSik": "Too many requests. Please try again in a few minutes."
+  },
+  "altbilgi": {
+    "ozet": "Cutting dies, bending dies, plastic and die-casting molds; contract CNC machining. Since 2010.",
+    "hizmetler": "Services",
+    "kurumsal": "Company",
+    "iletisim": "Contact",
+    "grup": "Group company",
+    "grupMetin": "Press feeding systems and coil processing lines",
+    "haklar": "All rights reserved."
+  },
+  "bulunamadi": {
+    "baslik": "Page not found",
+    "metin": "The page you are looking for may have moved or never existed.",
+    "dugme": "Back to home"
+  }
+}
