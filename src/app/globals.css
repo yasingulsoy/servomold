@@ -1,0 +1,326 @@
+@import "tailwindcss";
+
+/*
+ * ServoMold tasarım sistemi — "endüstriyel hassasiyet".
+ *
+ * Renkler logodan: amber #F0B000 ("Servo"), grafit #404040 ("Mold").
+ * Kabuk koyu grafit; hero, süreç ve altbilgi bu renkte. Gövde açık, hafif
+ * sıcak kâğıt tonu (teknik resim kâğıdı). Servosteel'in altını (#e7a300) ve
+ * beyaz kabuğuyla akraba ama ayrı: daha koyu, daha "çizim masası".
+ *
+ * Kontrast notları (WCAG AA, normal metin >= 4.5):
+ *   amber-koyu #8a5800 / beyaz        6.0
+ *   amber-koyu #8a5800 / kagit        5.5
+ *   amber #f0b000 / kabuk #0e1012     9.8
+ *   soluk #59606a / beyaz             6.3
+ *   koyu-soluk #a3a9b0 / kabuk        8.1
+ *   Amber zemin üstünde metin hep kabuk rengi.
+ */
+
+@theme {
+  --color-kabuk: #0e1012;
+  --color-kabuk-2: #15181b;
+  --color-kabuk-3: #1d2125;
+  --color-cizgi-koyu: #2b3036;
+  --color-koyu-soluk: #a3a9b0;
+  --color-koyu-metin: #e9ebed;
+
+  --color-amber: #f0b000;
+  --color-amber-acik: #ffcf3d;
+  --color-amber-koyu: #8a5800;
+  --color-amber-derin: #6b4400;
+  --color-grafit: #404040;
+
+  --color-murekkep: #16191c;
+  --color-soluk: #59606a;
+  --color-kagit: #f5f4f1;
+  --color-kagit-2: #ecebe6;
+  --color-cizgi: #dcdad4;
+
+  --color-hata: #b42318;
+  --color-tamam: #1f7a3d;
+
+  --breakpoint-xs: 26rem;
+}
+
+/* Font değişkenleri layout'ta next/font tarafından html'e basılır; `inline`
+   çünkü değer çalışma anında çözülen bir değişken. */
+@theme inline {
+  --font-sans: var(--font-barlow), ui-sans-serif, system-ui, "Segoe UI", Arial, sans-serif;
+  --font-baslik: var(--font-barlow-condensed), "Arial Narrow", ui-sans-serif, sans-serif;
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+    /* Yapışkan başlık çapa hedeflerini örtmesin (#teklif vb.) */
+    scroll-padding-top: 5.5rem;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    html {
+      scroll-behavior: auto;
+    }
+    *,
+    *::before,
+    *::after {
+      transition-duration: 0.01ms !important;
+      animation-duration: 0.01ms !important;
+    }
+  }
+
+  body {
+    background: var(--color-kagit);
+    color: var(--color-murekkep);
+    font-family: var(--font-sans);
+    font-feature-settings: "tnum" 0;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-baslik);
+    text-wrap: balance;
+  }
+
+  p {
+    text-wrap: pretty;
+  }
+
+  ::selection {
+    background: var(--color-amber);
+    color: var(--color-kabuk);
+  }
+
+  :focus-visible {
+    outline: 2px solid var(--color-amber);
+    outline-offset: 3px;
+  }
+}
+
+/* --- Motifler ----------------------------------------------------------- */
+
+/* Teknik çizim ızgarası: 24 px ince, 120 px kalın çizgi. Koyu bölümler. */
+@utility izgara {
+  background-image:
+    linear-gradient(to right, rgb(255 255 255 / 0.06) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.06) 1px, transparent 1px),
+    linear-gradient(to right, rgb(255 255 255 / 0.025) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(255 255 255 / 0.025) 1px, transparent 1px);
+  background-size:
+    120px 120px,
+    120px 120px,
+    24px 24px,
+    24px 24px;
+  background-position: -1px -1px;
+}
+
+/* Açık zemin (amber bant, kâğıt) için aynı ızgara, koyu çizgiyle. */
+@utility izgara-acik {
+  background-image:
+    linear-gradient(to right, rgb(14 16 18 / 0.08) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(14 16 18 / 0.08) 1px, transparent 1px),
+    linear-gradient(to right, rgb(14 16 18 / 0.035) 1px, transparent 1px),
+    linear-gradient(to bottom, rgb(14 16 18 / 0.035) 1px, transparent 1px);
+  background-size:
+    120px 120px,
+    120px 120px,
+    24px 24px,
+    24px 24px;
+  background-position: -1px -1px;
+}
+
+/* Görsel çerçevesi: dört köşede baskı kırpma işareti. Renk `color`'dan
+   gelir (text-amber, text-cizgi…). Çerçevenin içinde yalnız görsel olmalı. */
+@utility kirpma {
+  position: relative;
+  --kirpma-boy: 18px;
+  --kirpma-pay: 10px;
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: calc(var(--kirpma-pay) * -1);
+    pointer-events: none;
+    z-index: 2;
+    background:
+      linear-gradient(currentColor, currentColor) top left / var(--kirpma-boy) 1px,
+      linear-gradient(currentColor, currentColor) top left / 1px var(--kirpma-boy),
+      linear-gradient(currentColor, currentColor) top right / var(--kirpma-boy) 1px,
+      linear-gradient(currentColor, currentColor) top right / 1px var(--kirpma-boy),
+      linear-gradient(currentColor, currentColor) bottom left / var(--kirpma-boy) 1px,
+      linear-gradient(currentColor, currentColor) bottom left / 1px var(--kirpma-boy),
+      linear-gradient(currentColor, currentColor) bottom right / var(--kirpma-boy) 1px,
+      linear-gradient(currentColor, currentColor) bottom right / 1px var(--kirpma-boy);
+    background-repeat: no-repeat;
+  }
+}
+
+/* Küçük büyük-harf etiket: bölüm üstleri, plaka satırları, ölçü yazıları. */
+@utility etiket {
+  font-family: var(--font-baslik);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.16em;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
+/* Pah kırılmış köşe (sağ üst) — düğmeler ve plakalar. Odak halkası içeride
+   çizilir (clip-path dış çerçeveyi keser). */
+@utility pah {
+  clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+}
+
+@utility pah-kucuk {
+  clip-path: polygon(0 0, calc(100% - 8px) 0, 100% 8px, 100% 100%, 0 100%);
+}
+
+/* --- Bileşen sınıfları --------------------------------------------------- */
+
+@layer components {
+  .kap {
+    margin-inline: auto;
+    width: 100%;
+    max-width: 80rem;
+    padding-inline: 1.25rem;
+  }
+  @media (min-width: 40rem) {
+    .kap {
+      padding-inline: 2rem;
+    }
+  }
+
+  .dugme {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    min-height: 3rem;
+    padding: 0.7rem 1.4rem;
+    font-family: var(--font-baslik);
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    line-height: 1.1;
+    transition:
+      background-color 150ms,
+      color 150ms,
+      box-shadow 150ms;
+    clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+  }
+  .dugme:focus-visible {
+    outline: none;
+    box-shadow: inset 0 0 0 3px var(--color-kabuk);
+  }
+
+  .dugme-amber {
+    background: var(--color-amber);
+    color: var(--color-kabuk);
+  }
+  .dugme-amber:hover {
+    background: var(--color-amber-acik);
+  }
+
+  .dugme-koyu {
+    background: var(--color-kabuk);
+    color: var(--color-koyu-metin);
+  }
+  .dugme-koyu:hover {
+    background: var(--color-kabuk-3);
+  }
+  .dugme-koyu:focus-visible {
+    box-shadow: inset 0 0 0 3px var(--color-amber);
+  }
+
+  /* Çerçeveli düğmelerde pah yok: clip-path çerçeve çizgisini köşede keserdi. */
+  .dugme-cizgi,
+  .dugme-cizgi-acik {
+    clip-path: none;
+  }
+
+  /* Koyu zeminde çerçeveli ikincil düğme */
+  .dugme-cizgi {
+    color: var(--color-koyu-metin);
+    box-shadow: inset 0 0 0 1px rgb(255 255 255 / 0.28);
+  }
+  .dugme-cizgi:hover {
+    box-shadow: inset 0 0 0 1px var(--color-amber);
+    color: var(--color-amber);
+  }
+  .dugme-cizgi:focus-visible {
+    box-shadow: inset 0 0 0 3px var(--color-amber);
+  }
+
+  /* Açık zeminde çerçeveli ikincil düğme */
+  .dugme-cizgi-acik {
+    color: var(--color-murekkep);
+    box-shadow: inset 0 0 0 1px var(--color-murekkep);
+  }
+  .dugme-cizgi-acik:hover {
+    background: var(--color-murekkep);
+    color: var(--color-kagit);
+  }
+  .dugme-cizgi-acik:focus-visible {
+    box-shadow: inset 0 0 0 3px var(--color-amber-koyu);
+  }
+
+  /* Metin içi bağlantı (açık zemin) */
+  .baglanti {
+    color: var(--color-amber-koyu);
+    text-decoration: underline;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 3px;
+  }
+  .baglanti:hover {
+    color: var(--color-amber-derin);
+    text-decoration-thickness: 2px;
+  }
+
+  /* Form alanları */
+  .alan {
+    display: block;
+    width: 100%;
+    min-height: 3rem;
+    padding: 0.7rem 0.9rem;
+    background: #fff;
+    border: 1px solid var(--color-cizgi);
+    border-bottom: 2px solid var(--color-grafit);
+    color: var(--color-murekkep);
+    font-size: 1rem;
+    border-radius: 0;
+    transition:
+      border-color 150ms,
+      box-shadow 150ms;
+  }
+  .alan::placeholder {
+    color: #7d838b;
+  }
+  .alan:focus {
+    outline: none;
+    border-color: var(--color-amber-koyu);
+    border-bottom-color: var(--color-amber);
+    box-shadow: 0 0 0 3px rgb(240 176 0 / 0.25);
+  }
+  .alan[aria-invalid="true"] {
+    border-color: var(--color-hata);
+    border-bottom-color: var(--color-hata);
+  }
+
+  .amblem > svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .amblem text {
+    font-family: var(--font-baslik);
+  }
+
+  /* Uzun metin sayfalarındaki paragraflar */
+  .metin p + p {
+    margin-top: 1rem;
+  }
+}

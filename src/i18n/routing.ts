@@ -36,4 +36,8 @@ export const routing = defineRouting({
   defaultLocale: "tr",
   localePrefix: "as-needed",
   pathnames: PATHNAMES as Record<string, string>,
+  /* hreflang sayfa metadata'sında (seo.ts) ve sitemap'te; x-default orada
+     İngilizce. next-intl'in Link başlığı x-default'u Türkçe yazardı — iki
+     çelişkili sinyal olmasın diye kapalı. */
+  alternateLinks: false,
 });

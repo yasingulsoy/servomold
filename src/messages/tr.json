@@ -8,7 +8,9 @@
     "atla": "İçeriğe geç",
     "detay": "Ayrıntılar",
     "tumu": "Bütün hizmetler",
-    "servosteelde": "Servosteel'de incele"
+    "servosteelde": "Servosteel'de incele",
+    "yeniSekme": "(yeni sekmede açılır)",
+    "yukari": "Başa dön"
   },
   "nav": {
     "hizmetler": "Hizmetler",
@@ -93,12 +95,15 @@
     "grupDugme": "servosteel.com.tr",
     "videoUst": "Video",
     "videoBaslik": "ServoSteel & ServoMold",
+    "videoGiris": "Grubumuzun resmî YouTube kanalındaki “ServoSteel & ServoMold” videosu. Öteki videolar da kanalımızda.",
     "videoOynat": "Videoyu oynat",
     "videoNot": "Video YouTube'dan yüklenir.",
     "markaUst": "Projelerimizde kullandığımız markalar",
     "ctaBaslik": "Teknik resminizi gönderin, teklifimizi hazırlayalım.",
     "ctaGiris": "Çizim, numune fotoğrafı ya da 3B model: elinizde ne varsa yeter. Eksik bilgiyi biz sorarız.",
-    "ctaDugme": "Teklif formu"
+    "ctaDugme": "Teklif formu",
+    "cncDugme": "Fason işleme ayrıntıları",
+    "bolum": "Bölüm"
   },
   "hizmetSayfa": {
     "baslik": "Hizmetlerimiz",
@@ -108,7 +113,9 @@
     "diger": "Diğer hizmetlerimiz",
     "formBaslik": "Bu hizmet için teklif isteyin",
     "disBaslik": "Bu hizmet Servosteel'de",
-    "disMetin": "Pres besleme ve rulo sac işleme hatlarının ayrıntıları, teknik verileri ve referansları grup şirketimizin sitesinde."
+    "disMetin": "Pres besleme ve rulo sac işleme hatlarının ayrıntıları, teknik verileri ve referansları grup şirketimizin sitesinde.",
+    "ust": "Ne yapıyoruz",
+    "grup": "Grup şirketi"
   },
   "hakkimizda": {
     "baslik": "Hakkımızda",
@@ -135,7 +142,10 @@
     "harita": "Haritada aç",
     "haritaBaslik": "ServoMold konumu",
     "formBaslik": "Teklif formu",
-    "formGiris": "Dosya ekleyebilirsiniz: PDF, DWG, DXF, STEP, IGES, görsel ya da ZIP; toplam 15 MB'a kadar."
+    "formGiris": "Dosya ekleyebilirsiniz: PDF, DWG, DXF, STEP, IGES, görsel ya da ZIP; toplam 15 MB'a kadar.",
+    "ust": "Dudullu OSB · Ümraniye, İstanbul",
+    "youtube": "YouTube kanalımız",
+    "kanal": "Kanal"
   },
   "form": {
     "ad": "Adınız",
@@ -161,7 +171,11 @@
     "hataBuyuk": "Dosyalar toplam 15 MB'ı geçemez.",
     "hataTur": "Bu dosya türü kabul edilmiyor:",
     "hataAlan": "Lütfen ad, e-posta ve mesaj alanlarını doldurun.",
-    "hataSik": "Çok sık gönderim yapıldı. Birkaç dakika sonra tekrar deneyin."
+    "hataSik": "Çok sık gönderim yapıldı. Birkaç dakika sonra tekrar deneyin.",
+    "hataKapali": "Form şu an e-posta gönderemiyor. Talebinizi doğrudan e-postayla iletin:",
+    "hataEposta": "Lütfen geçerli bir e-posta adresi yazın.",
+    "toplam": "Toplam",
+    "bot": "Bu alanı boş bırakın"
   },
   "altbilgi": {
     "ozet": "2010'dan beri kesme, bükme, plastik ve metal enjeksiyon kalıpları; fason CNC işleme.",
@@ -170,7 +184,8 @@
     "iletisim": "İletişim",
     "grup": "Grup şirketi",
     "grupMetin": "Pres besleme sistemleri ve rulo sac işleme hatları",
-    "haklar": "Bütün hakları saklıdır."
+    "haklar": "Bütün hakları saklıdır.",
+    "youtube": "YouTube"
   },
   "bulunamadi": {
     "baslik": "Sayfa bulunamadı",

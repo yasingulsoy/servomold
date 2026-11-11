@@ -29,6 +29,8 @@ export type Hizmet = {
   /** İngilizce URL parçası */
   en: string;
   gorsel: string;
+  /** Görsel 346×286 değilse gerçek boyutu: kartta sığdırılır, sayfada kendi oranıyla basılır. */
+  gorselBoyut?: { w: number; h: number };
   gorselAlt: Record<AppLocale, string>;
   /** Grup şirketine yönlendiren hizmet */
   dis?: "servosteel";
@@ -346,7 +348,11 @@ export const HIZMETLER: Hizmet[] = [
     slug: "uretim-hatlari",
     en: "production-lines",
     dis: "servosteel",
-    gorsel: "/gorseller/hizmetler/uretim-hatlari.jpg",
+    /* Eski sitedeki görselin (docs/eski-site/gorseller/IMG_47DC45-…) üstünde
+       ve altında beyaz bant, çevresinde sarı çerçeve vardı; bu dosya yalnız
+       fotoğrafın kendisi. */
+    gorsel: "/gorseller/hizmetler/uretim-hatlari-servosteel.jpg",
+    gorselBoyut: { w: 342, h: 182 },
     gorselAlt: { tr: "Servosteel pres besleme hattı", en: "Servosteel press feeding line" },
     metin: {
       tr: {
@@ -392,6 +398,11 @@ export const HIZMETLER: Hizmet[] = [
     },
   },
 ];
+
+/** Görselin piksel boyutu (OG ve sitemap için). */
+export function gorselBoyutu(h: Hizmet) {
+  return h.gorselBoyut ?? { w: 346, h: 286 };
+}
 
 export function hizmetBul(slug: string) {
   return HIZMETLER.find((h) => h.slug === slug);

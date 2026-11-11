@@ -17,7 +17,7 @@ Orijinal dosya adları korunmuştur (URL'deki son parça).
 | `IMG_C5AD6B-…BB1C41.jpg` | 346×286 | Şişe kalıbı (3B görsel) | Plastik Kalıp | `hizmetler/plastik-enjeksiyon-kaliplari.jpg` |
 | `IMG_FBF712-…9CC8F0.jpg` | 346×286 | Basınçlı döküm kalıbı (3B görsel) | Metal Enjeksiyon | `hizmetler/metal-enjeksiyon-kaliplari.jpg` |
 | `IMG_6377E8-…C4FF06.jpg` | 346×286 | CNC freze, mengene (stok) | Fason CNC İşleme | `hizmetler/fason-cnc-isleme.jpg` |
-| `IMG_47DC45-…1D2A90.jpg` | 346×286 | Servosteel pres besleme hattı | Üretim Hatları | `hizmetler/uretim-hatlari.jpg` |
+| `IMG_47DC45-…1D2A90.jpg` | 346×286 | Servosteel pres besleme hattı (üstte/altta beyaz bant, sarı çerçeve) | Üretim Hatları | `hizmetler/uretim-hatlari-servosteel.jpg` (yalnız fotoğraf, 342×182) |
 | `IMG_077288-…F9C50D.jpg` | 250×106 | SKF logosu | Partnerlerimiz | `markalar/skf.jpg` |
 | `IMG_22C8BA-…8C7A5B.jpg` | 250×106 | FESTO logosu | Partnerlerimiz | `markalar/festo.jpg` |
 | `IMG_77A0ED-…F673EB.jpg` | 250×106 | Schneider Electric logosu | Partnerlerimiz | `markalar/schneider-electric.jpg` |
@@ -38,7 +38,7 @@ Orijinal dosya adları korunmuştur (URL'deki son parça).
   Ürün görselleri 346×286 piksel; büyük ekranda bulanık duruyor, sitede bu
   yüzden küçük kutularda kullanıldı.
 - **Logo yalnızca 546 piksel PNG.** Yeni sitedeki amblem bu PNG'den SVG
-  olarak yeniden çizildi (`src/components/amblem.tsx`). Elde vektör logo
+  olarak yeniden çizildi (`src/lib/amblem.ts`, sayfada `src/components/amblem.tsx`). Elde vektör logo
   (AI, EPS, PDF, SVG) varsa onunla değiştirilmeli.
 - **Eski sitedeki tanıtım videosu ServoMold'un değil.** `bE2QoKX_Q5g`
   "Paşa Kalıp" adlı başka bir firmanın videosu (kişisel bir kanaldan).

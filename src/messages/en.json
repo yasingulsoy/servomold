@@ -8,7 +8,9 @@
     "atla": "Skip to content",
     "detay": "Details",
     "tumu": "All services",
-    "servosteelde": "View on Servosteel"
+    "servosteelde": "View on Servosteel",
+    "yeniSekme": "(opens in a new tab)",
+    "yukari": "Back to top"
   },
   "nav": {
     "hizmetler": "Services",
@@ -43,19 +45,46 @@
     "ilkeUst": "How we work",
     "ilkeBaslik": "Four principles we have kept since day one",
     "ilkeler": {
-      "termin": { "baslik": "On-time delivery", "metin": "The delivery date is where our plan starts; we build the job around it." },
-      "fiyat": { "baslik": "Fair pricing", "metin": "We build the tool your part actually needs, and price it accordingly." },
-      "kadro": { "baslik": "Experienced team", "metin": "Your mold is prepared by our specialist team, from design to machining." },
-      "kalite": { "baslik": "Honesty and quality", "metin": "Honesty and quality in service are what keep production successful and sustainable." }
+      "termin": {
+        "baslik": "On-time delivery",
+        "metin": "The delivery date is where our plan starts; we build the job around it."
+      },
+      "fiyat": {
+        "baslik": "Fair pricing",
+        "metin": "We build the tool your part actually needs, and price it accordingly."
+      },
+      "kadro": {
+        "baslik": "Experienced team",
+        "metin": "Your mold is prepared by our specialist team, from design to machining."
+      },
+      "kalite": {
+        "baslik": "Honesty and quality",
+        "metin": "Honesty and quality in service are what keep production successful and sustainable."
+      }
     },
     "surecUst": "Process",
     "surecBaslik": "From drawing to delivery",
     "surec": {
-      "1": { "baslik": "Drawing and requirements", "metin": "We start from the part drawing or a sample, the material, volume and press details." },
-      "2": { "baslik": "Tool design", "metin": "Layout, tool steel and stations are designed around the part." },
-      "3": { "baslik": "CNC machining", "metin": "Mold components are machined on CNC lathes and mills." },
-      "4": { "baslik": "Assembly and try-out", "metin": "The tool is assembled, first parts are measured and corrected if needed." },
-      "5": { "baslik": "Delivery", "metin": "The tool is delivered after your approval." }
+      "1": {
+        "baslik": "Drawing and requirements",
+        "metin": "We start from the part drawing or a sample, the material, volume and press details."
+      },
+      "2": {
+        "baslik": "Tool design",
+        "metin": "Layout, tool steel and stations are designed around the part."
+      },
+      "3": {
+        "baslik": "CNC machining",
+        "metin": "Mold components are machined on CNC lathes and mills."
+      },
+      "4": {
+        "baslik": "Assembly and try-out",
+        "metin": "The tool is assembled, first parts are measured and corrected if needed."
+      },
+      "5": {
+        "baslik": "Delivery",
+        "metin": "The tool is delivered after your approval."
+      }
     },
     "cncUst": "Contract machining",
     "cncBaslik": "Send us the drawing, get the finished part",
@@ -66,12 +95,15 @@
     "grupDugme": "servosteel.com.tr",
     "videoUst": "Video",
     "videoBaslik": "ServoSteel & ServoMold",
+    "videoGiris": "The “ServoSteel & ServoMold” video from our group’s official YouTube channel. More videos are on the channel.",
     "videoOynat": "Play video",
     "videoNot": "The video loads from YouTube.",
     "markaUst": "Brands we use in our projects",
     "ctaBaslik": "Send your drawing and we will prepare a quotation.",
     "ctaGiris": "A drawing, a photo of a sample or a 3D model: whatever you have is enough. We will ask for anything missing.",
-    "ctaDugme": "Quote form"
+    "ctaDugme": "Quote form",
+    "cncDugme": "Machining details",
+    "bolum": "Section"
   },
   "hizmetSayfa": {
     "baslik": "Our services",
@@ -81,7 +113,9 @@
     "diger": "Other services",
     "formBaslik": "Request a quote for this service",
     "disBaslik": "This service is provided by Servosteel",
-    "disMetin": "Details, technical data and references for press feeding and coil processing lines are on our group company's website."
+    "disMetin": "Details, technical data and references for press feeding and coil processing lines are on our group company's website.",
+    "ust": "What we do",
+    "grup": "Group company"
   },
   "hakkimizda": {
     "baslik": "About us",
@@ -108,7 +142,10 @@
     "harita": "Open in Maps",
     "haritaBaslik": "ServoMold location",
     "formBaslik": "Quote form",
-    "formGiris": "You can attach files: PDF, DWG, DXF, STEP, IGES, images or ZIP; up to 15 MB in total."
+    "formGiris": "You can attach files: PDF, DWG, DXF, STEP, IGES, images or ZIP; up to 15 MB in total.",
+    "ust": "Dudullu OSB · Ümraniye, Istanbul",
+    "youtube": "Our YouTube channel",
+    "kanal": "Channel"
   },
   "form": {
     "ad": "Your name",
@@ -134,7 +171,11 @@
     "hataBuyuk": "Files cannot exceed 15 MB in total.",
     "hataTur": "This file type is not accepted:",
     "hataAlan": "Please fill in your name, email and message.",
-    "hataSik": "Too many requests. Please try again in a few minutes."
+    "hataSik": "Too many requests. Please try again in a few minutes.",
+    "hataKapali": "The form cannot send email right now. Please email your request directly:",
+    "hataEposta": "Please enter a valid email address.",
+    "toplam": "Total",
+    "bot": "Leave this field empty"
   },
   "altbilgi": {
     "ozet": "Cutting dies, bending dies, plastic and die-casting molds; contract CNC machining. Since 2010.",
@@ -143,7 +184,8 @@
     "iletisim": "Contact",
     "grup": "Group company",
     "grupMetin": "Press feeding systems and coil processing lines",
-    "haklar": "All rights reserved."
+    "haklar": "All rights reserved.",
+    "youtube": "YouTube"
   },
   "bulunamadi": {
     "baslik": "Page not found",

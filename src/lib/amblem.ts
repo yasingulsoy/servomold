@@ -54,6 +54,10 @@ export function amblemSvg({
 }: AmblemSecenek = {}) {
   const harfRenk = zemin === "koyu" ? "#d5d9de" : "#3d4045";
   const cember = zemin === "koyu" ? "#8d939a" : "#a3a8ae";
+  /* Koyu zeminde grafit çark zemine karışıp kayboluyordu (render edilip
+     bakıldı). Çarkın arkasına açık bir disk konur: amblem, beyaz zemindeki
+     orijinal logo gibi okunur, amber halka koyu zeminde kalır. */
+  const disk = zemin === "koyu" ? `<circle cx="100" cy="100" r="70" fill="#e8eaed"/>` : "";
   const g = `${onek}-g`;
 
   const dis = DILIMLER.map((c) => `<path d="${dilim(75, 97, c - 25, c + 25)}" fill="#d97a00"/>`).join("");
@@ -82,6 +86,7 @@ export function amblemSvg({
     dis +
     ic +
     harf +
+    disk +
     `<circle cx="100" cy="100" r="68" fill="none" stroke="${cember}" stroke-width="3"/>` +
     `<g fill="#3a3d42">${kollar}</g>` +
     `<circle cx="100" cy="100" r="55" fill="none" stroke="#3a3d42" stroke-width="11"/>` +
